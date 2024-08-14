@@ -22,11 +22,13 @@ The dataset Restaurant_Reviews.tsv consists of:
 *---------------------------Methodology----------------------------*
 
 Data Loading and Preprocessing
+
 ![image](https://github.com/user-attachments/assets/675b54a3-83b2-4236-ac7c-80350960c8cb)
 
 *-----------------------Feature Extraction--------------------------*
 
 Four different CountVectorizer configurations were used:
+
 ![image](https://github.com/user-attachments/assets/fb3c4c75-8dea-4387-b70a-8fbaaace3d15)
 
 **vectorizer1:** Binary (0/1) representation.
@@ -37,18 +39,21 @@ Four different CountVectorizer configurations were used:
 *----------------------Model Training and Testing-------------------------*
 
 The dataset was split into training and test sets, and both Binomial and Multinomial Naive Bayes models were applied.
+
 ![image](https://github.com/user-attachments/assets/0b96e9bd-ef1d-4bc6-b778-4a56fc4248cc)
 
 
 *-------------------------Model Evaluation----------------------------------*
 
 The accuracy scores for each model were computed to evaluate their performance:
+
 ![image](https://github.com/user-attachments/assets/e4f9bf4a-c327-47bd-a845-fa346d48e42b)
 
 
 *--------------------------Prediction Example------------------------------*
 
 An example review was used to test the Multinomial Naive Bayes model:
+
 ![image](https://github.com/user-attachments/assets/24f71437-4d29-4db6-8bf4-13e7d2c826ad)
 
 
